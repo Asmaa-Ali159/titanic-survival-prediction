@@ -7,11 +7,15 @@ It is implemented in a Jupyter Notebook: **Titanic.ipynb**.
 ---
 
 ##  Files in this Repository
-- **Titanic.ipynb** → Main notebook with data cleaning, EDA, and modeling.  
-- **train.csv** → Training dataset (with `Survived` values).  
-- **test.csv** → Test dataset (without survival labels).  
-- **gender_submission.csv** → Example submission file from Kaggle.  
-- **README.md** → Project documentation (this file).  
+- **data/** → contains dataset files:  
+  - `train.csv` → training dataset with survival labels.  
+  - `test.csv` → test dataset without labels (used for prediction).  
+
+- **images/** → exported plots and visualizations (e.g., histograms, countplots, heatmaps).  
+
+- **Titanic.ipynb** → Jupyter Notebook with data cleaning, EDA, feature engineering, and machine learning models.  
+
+- **README.md** → project documentation (this file).  
 
 ---
 
